@@ -1,8 +1,8 @@
 <template>
   <div class="min-h-screen bg-gray-100 flex items-center justify-center">
     <div class="bg-white border border-gray-300 rounded p-8 w-full max-w-sm">
-      <h1 class="text-lg font-bold text-gray-900 mb-1">ExSIS Proposal Management</h1>
-      <p class="text-xs text-gray-500 mb-6">Extension Services Information System — Prototype</p>
+      <h1 class="text-2xl font-bold text-gray-900 mb-1 text-center">ExSIS</h1>
+      <p class="text-xs text-gray-500 mb-6 text-center">Extension Services Information System — Prototype</p>
 
       <div v-if="error" class="mb-4 p-2 border border-gray-400 bg-gray-100 rounded text-xs text-gray-700 flex items-center gap-1"><AlertTriangle class="w-4 h-4 text-red-600" /> {{ error }}</div>
 
