@@ -1,0 +1,2 @@
+<template><LayoutAppLayout><LayoutPageHeader title="Coordination Notices" /><CommonWireframeCard title="Notices"><div class="text-sm text-gray-500 py-2 border-b border-gray-200">Proposal EXT-2026-0001 evaluators confirmed. Evaluation in progress.</div><div class="text-sm text-gray-500 py-2">Proposal EXT-2026-0003 approved by President.</div></CommonWireframeCard></LayoutAppLayout></template>
+<script setup lang="ts">const { user } = useAuth(); if (!user.value) navigateTo('/login')</script>
