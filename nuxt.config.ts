@@ -9,6 +9,9 @@ export default defineNuxtConfig({
       title: 'ExSIS — Proposal Management Prototype',
       meta: [
         { name: 'description', content: 'ExSIS Extension Services Information System - Proposal Management Module Prototype' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
       ]
     }
   }
